@@ -20,7 +20,9 @@ resources:
     tunnel:
       port: 3001
 app:
-  id: ari:cloud:ecosystem::app/df737d11-ce19-4c72-b5ed-fa31e3009017
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/0f65a372-4543-46d1-abe3-72f9984a472c
 
 permissions:
   scopes:

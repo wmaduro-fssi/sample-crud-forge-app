@@ -16,6 +16,6 @@
   "dependencies": {
     "@forge/api": "^2.3.0",
     "@forge/resolver": "^1.2.0",
-    "axios": "^0.21.4"
+    "axios": "^1.7.7"
   }
 }
