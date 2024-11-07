@@ -7,7 +7,8 @@
   "scripts": {
     "install-main": "cd static/main-app && npm install && npm run build",
     "install-wrapper": "cd static/wrapper-app && npm install && npm run build",
-    "setup": "npm install && npm run install-main && npm run install-wrapper"
+    "build": "npm install && npm run install-main && npm run install-wrapper",
+    "clean": "rm -rf node_modules; rm -rf static/main-app/node_modules; rm -rf static/main-app/build; rm -rf static/wrapper-app/node_modules; rm -rf static/wrapper-app/build"  
   },
   "devDependencies": {
     "eslint": "^6.5.1",
